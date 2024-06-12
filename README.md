@@ -1,2 +1,1 @@
-# EECS131
-Edge Computing
+# EE/CS 131 Edge Computing
