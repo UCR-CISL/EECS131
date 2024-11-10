@@ -30,7 +30,7 @@ Lecture: Mon, Wen 9:30-10:50, WCH 143
 
 Lab: Tue 11:00-12:50 (Sec. 1), 13:00-14:50 (Sec. 2), TBD
 
-<iframe style="width:100%; height:600px; overflow:hidden" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSndp1VlhR48elmZEjsBQVyZ0-egKxLLYYWanEz1kNsOMQfT3Tdr1IImkOmiMAgGqTsvEtVBj0ewGnG/pubhtml?widget=false&amp;chrome=false&amp;gid=0&amp;range=A1:G21&amp;headers=false"></iframe>
+<iframe style="width:100%; height:600px; overflow:hidden" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhmB6nwlDy0wptpuHyy59sf20OlX3_bpLAFwAhHJ3U1K79SND7sNPE5LPKtIaL1g/pubhtml?widget=false&amp;chrome=false&amp;gid=0&amp;range=A1:G21&amp;headers=false"></iframe>
 
 ### Labs and Final Project
 Students form into teams of two (2) to finish the labs and the final project using Jetson Nano, plus any compatible additional peripherals that the team can provide.

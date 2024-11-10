@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Winter 2023
+title: Winter 2024
 ---
 
 {% assign team = site.data.team_winter24 | sort : "name" %}
