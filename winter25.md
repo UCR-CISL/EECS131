@@ -24,11 +24,11 @@ title: Winter 2025
 {% endfor %}
 </div>
 
-### Course Schedule (TBD)
+### Course Schedule
 
 Lecture: Mon, Wen 9:30-10:50, WCH 143
 
-Lab: Tue 11:00-12:50 (Sec. 1), 13:00-14:50 (Sec. 2), TBD
+Lab: Tue 11:00-12:50 (Sec. 1), 13:00-14:50 (Sec. 2), WCH 128
 
 <iframe style="width:100%; height:600px; overflow:hidden" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS1ZmsFhnrh07N_RcfPwi-HdG8lVb6RzJaOlbYmIBtIncRIjSqS9y99Mg9RZ7JQ1oBtyNag_3CVrMx8/pubhtml?widget=false&amp;chrome=false&amp;gid=0&amp;range=A1:G21&amp;headers=false"></iframe>
 
