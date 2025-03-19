@@ -88,7 +88,7 @@ specific function calls such as forward, left, and right with a estimated distan
         {% else %}
             <h3>{{ p.name }}</h3> 
         {% endif %}
-    <video width="320" height="180" controls>
+    <video width="720" height="576" controls>
     <source src="{{ site.baseurl }}/assets/videos/{{p.video}}" type="video/mp4">
     </video>
     </div>
