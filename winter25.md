@@ -51,9 +51,9 @@ used were multimodal and would output general instructions that would be parsed 
 specific function calls such as forward, left, and right with a estimated distance/degree.
 
 
-<!-- Video below the text -->
-<div class="video-container">
-    <video muted autoplay loop controls>
-        <source src="{{ site.baseurl }}/assets/videos/jerryli_CS131_Final_Project.mp4" type="video/mp4">
-    </video>
+
+<div class="researchimg">
+<video muted autoplay loop width="100%">
+<source src="{{ site.baseurl }}/assets/videos/jerryli_CS131_Final_Project.mp4" type="video/mp4">
+</video>
 </div>
