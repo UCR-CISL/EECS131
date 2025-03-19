@@ -62,21 +62,15 @@ specific function calls such as forward, left, and right with a estimated distan
     <div class="project-item">
         <h3>Tesla Bot</h3>
         <video muted autoplay loop controls>
-            <source src="/assets/videos/jerryli_CS131_Final_Project.mp4" type="video/mp4">
+            <source src="{{ site.baseurl }}/assets/videos/jerryli_CS131_Final_Project.mp4" type="video/mp4">
         </video>
     </div>
 
     <div class="project-item">
         <h3>Edge AI Robot</h3>
         <video muted autoplay loop controls>
-            <source src="/assets/videos/anisha_CS131_Final_Project.mp4" type="video/mp4">
+            <source src="{{ site.baseurl }}/assets/videos/anisha_CS131_Final_Project.mp4" type="video/mp4">
         </video>
     </div>
 
-    <div class="project-item">
-        <h3>Cloud Offloading</h3>
-        <video muted autoplay loop controls>
-            <source src="/assets/videos/cloud_offloading.mp4" type="video/mp4">
-        </video>
-    </div>
 </div>
