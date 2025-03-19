@@ -90,7 +90,7 @@ specific function calls such as forward, left, and right with a estimated distan
         {% endif %}
     <!-- <video width="720" height="576" controls> -->
     <source src="{{ site.baseurl }}/assets/videos/{{p.video}}" type="video/mp4">
-    </video>
+    <!-- </video> -->
     </div>
 {% endfor %}
 </div>
