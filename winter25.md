@@ -58,7 +58,9 @@ specific function calls such as forward, left, and right with a estimated distan
     </video>
 </div> -->
 
-<div class="project-gallery">
+{% assign project = site.data.team_winter25_project | sort : "name" %}
+
+<!-- <div class="project-gallery">
     <div class="project-item">
         <h3>Tesla Bot</h3>
         <video muted autoplay loop controls>
@@ -67,10 +69,23 @@ specific function calls such as forward, left, and right with a estimated distan
     </div>
 
     <div class="project-item">
-        <h3>Edge AI Robot</h3>
+        <h3>American Sign Language (ASL) Detector</h3>
         <video muted autoplay loop controls>
             <source src="{{ site.baseurl }}/assets/videos/anisha_CS131_Final_Project.mp4" type="video/mp4">
         </video>
     </div>
 
+
+</div> -->
+
+
+<div class="clearfix">
+<br>
+{% for p in project %}
+    <div class="videos">
+    <img src="{{ site.baseurl }}/assets/videos/{{p.video}}" type="video/mp4">
+        <a href="{{p.web}}">{{p.name}}</a>
+        <br><em>{{p.note}}</em>
+    </div>
+{% endfor %}
 </div>
