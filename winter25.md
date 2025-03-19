@@ -91,10 +91,11 @@ specific function calls such as forward, left, and right with a estimated distan
     <!-- <video width="720" height="576" controls> -->
     {% if p.name == "American Sign Language (ASL) Detector" %}
         <img src="{{ site.baseurl }}/assets/videos/{{p.video}}" type="video/mp4">
-    {% endif %}
+    {% else %}
     <video muted autoplay loop controls>
     <source src="{{ site.baseurl }}/assets/videos/{{p.video}}" type="video/mp4">
     </video>
+    {% endif %}
     </div>
 {% endfor %}
 </div>
