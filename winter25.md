@@ -84,12 +84,13 @@ specific function calls such as forward, left, and right with a estimated distan
 {% for p in project %}
     <div class="videos">
         {% if p.web %}
-            <h3><a href="{{ p.web }}" target="_blank">{{ p.name }}</a></h3>  <!-- Clickable if link exists -->
+            <h3><a href="{{ p.web }}" target="_blank">{{ p.name }}</a></h3> 
         {% else %}
-            <h3>{{ p.name }}</h3>  <!-- Plain text if no link -->
+            <h3>{{ p.name }}</h3> 
         {% endif %}
-    <img src="{{ site.baseurl }}/assets/videos/{{p.video}}" type="video/mp4">
-        <!-- <a href="{{p.web}}">{{p.name}}</a> -->
+    <video width="320" height="180" controls>
+    <source src="{{ site.baseurl }}/assets/videos/{{p.video}}" type="video/mp4">
+
     </div>
 {% endfor %}
 </div>
