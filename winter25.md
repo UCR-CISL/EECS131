@@ -88,14 +88,9 @@ specific function calls such as forward, left, and right with a estimated distan
         {% else %}
             <h3>{{ p.name }}</h3> 
         {% endif %}
-    <!-- <video width="720" height="576" controls> -->
-    <!-- {% if p.name == "American Sign Language (ASL) Detector" %}
-        <img src="{{ site.baseurl }}/assets/videos/{{p.video}}" type="video/mp4">
-    {% else %} -->
         <video width="640" height="360" controls>
         <source src="{{ site.baseurl }}/assets/videos/{{p.video}}" type="video/mp4">
         </video>
-    <!-- {% endif %} -->
     </div>
 {% endfor %}
 </div>
