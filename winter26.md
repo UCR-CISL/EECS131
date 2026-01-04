@@ -3,7 +3,7 @@ layout: page
 title: 2026 Winter
 ---
 
-{% assign team = site.data.team_winter25 | sort : "name" %}
+{% assign team = site.data.team_winter26 | sort : "name" %}
 
 ### Instructors
 
@@ -26,13 +26,14 @@ title: 2026 Winter
 
 ### Course Schedule
 
-<!-- Lecture: Mon, Wen 9:30-10:50, WCH 143
+Lecture: Mon, Wen 12:30-13:50, HMNSS 1501
 
 Lab: Tue 11:00-12:50 (Sec. 1), 13:00-14:50 (Sec. 2), WCH 128
 
-TA Office Hour: Wed 16:00-17:00, WCH 315
 
-<iframe style="width:100%; height:600px; overflow:hidden" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS1ZmsFhnrh07N_RcfPwi-HdG8lVb6RzJaOlbYmIBtIncRIjSqS9y99Mg9RZ7JQ1oBtyNag_3CVrMx8/pubhtml?widget=false&amp;chrome=false&amp;gid=0&amp;range=A1:G21&amp;headers=false"></iframe> -->
+<iframe style="width:100%; height:500px; overflow:hidden" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSyp552S8DUshrwdMwsoaI7p5rIrqbxah6H864xKBkZyGrziRI_tV69F2T0z2p66w/pubhtml?gid=1225311029&amp;widget=false&amp;chrome=false&amp;gid=0&amp;range=A1:G21&amp;headers=false"></iframe> 
+
+
 
 ### Labs and Final Project
 Students form into teams of two (2) to finish the labs and the final project using Jetson Nano, plus any compatible additional peripherals that the team can provide.
