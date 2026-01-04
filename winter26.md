@@ -3,7 +3,7 @@ layout: page
 title: 2026 Winter
 ---
 
-{% assign team = site.data.team_winter25 | sort : "name" %}
+{% assign team = site.data.team_winter26 | sort : "name" %}
 
 ### Instructors
 
