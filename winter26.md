@@ -46,4 +46,20 @@ Students form into teams of two (2) to finish the labs and the final project usi
 
 ### Selected Final Project Demos
 
+{% assign project = site.data.team_winter26_project | sort : "name" %}
 
+<div class="clearfix">
+<br>
+{% for p in project %}
+    <div class="videos">
+        {% if p.web %}
+            <h3><a href="{{ p.web }}" target="_blank">{{ p.name }}</a></h3> 
+        {% else %}
+            <h3>{{ p.name }}</h3> 
+        {% endif %}
+        <video width="640" height="360" controls>
+        <source src="{{ site.baseurl }}/assets/videos/{{p.video}}" type="video/mp4">
+        </video>
+    </div>
+{% endfor %}
+</div>
